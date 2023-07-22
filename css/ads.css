@@ -1,0 +1,115 @@
+/* right column */
+.mainbg .d-flex a {
+  width: 25%;
+  text-align: center;
+  font-size: 24px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+.mainbg ul li {
+  text-align: center;
+  padding: 10px;
+  background-color: #fff;
+  margin: 15px 0;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: 0.5s ease-in-out;
+}
+.mainbg ul li.active,
+.mainbg ul li:hover {
+  background-color: var(--first_color);
+}
+.mainbg ul li a {
+  color: var(--first_color);
+  transition: 0.5s ease-in-out;
+}
+.mainbg ul li.active a,
+.mainbg ul li:hover a {
+  color: #fff;
+}
+.mainbg #addNewAds {
+  margin-top: 30px;
+  display: block;
+  text-align: center;
+}
+/* middel column */
+.main .row {
+  border-radius: 0;
+  padding: 0;
+  background-color: transparent;
+}
+.main .row ul li {
+  width: 25%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 20px;
+}
+.main .row ul li span {
+  padding-bottom: 10px;
+}
+.main .row ul li.active span {
+  border-bottom: 2px solid;
+}
+.main .item {
+  background-color: #fff;
+  border-radius: 20px;
+  margin: 8px;
+  padding: 0 0 10px;
+  border: none;
+}
+.main .item p {
+  color: var(--p_color);
+}
+@media (max-width: 768px) {
+  main .main {
+    padding: 0;
+  }
+  .main .row {
+    border-radius: 50px;
+    padding: 24px 21px;
+    background-color: #fff;
+  }
+  .main .item {
+    border-radius: 0;
+    margin: 0;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--p_color);
+  }
+}
+.main .item img:first-child {
+  border-radius: 20px;
+}
+.main .item .mainimg {
+  padding: 0;
+}
+@media (max-width: 768px) {
+  .main .item .mainimg {
+    border-radius: 0;
+    padding: 20px;
+  }
+}
+.main .item h6 {
+  margin: 0;
+}
+.main .item .d-flex {
+  justify-content: space-between;
+}
+.main .item .profile h6 {
+  font-weight: bold;
+  margin-top: 20px;
+}
+.main .item a {
+  background-color: var(--first_color);
+  display: inline-block;
+  padding: 3px 30px;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 30px;
+}
+.main .item .profile img {
+  border-radius: 50%;
+  margin: 5px 0 5px 10px;
+}
