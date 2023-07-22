@@ -168,4 +168,7 @@ article .icon i {
     padding-right: 15px !important;
     padding-left: 15px !important;
   }
+  main .main {
+    padding: 8px;
+  }
 }
