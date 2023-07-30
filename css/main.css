@@ -41,6 +41,13 @@ body::-webkit-scrollbar-thumb,
   border: 2px solid var(--first_color);
   overflow-y: auto;
 }
+.secondbg {
+  background-color: var(--first_bg_color);
+  border-radius: 30px;
+  border: 2px solid var(--first_color);
+  min-height: 90vh;
+  padding-top: 30px !important;
+}
 .row {
   margin: 0;
 }
@@ -69,7 +76,7 @@ footer a,
 header a {
   width: 20%;
   margin: 0;
-  font-size: 18px;
+  font-size: 25px;
   background-color: #fff;
   color: #bcbcbc;
   text-align: center;

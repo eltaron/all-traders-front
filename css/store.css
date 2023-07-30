@@ -1,0 +1,110 @@
+/* right column */
+.mainbg .d-flex a {
+  width: 25%;
+  text-align: center;
+  font-size: 24px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+.mainbg ul li {
+  text-align: center;
+  padding: 10px;
+  background-color: #fff;
+  margin: 15px 0;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: 0.5s ease-in-out;
+}
+.mainbg ul li.active,
+.mainbg ul li:hover {
+  background-color: var(--first_color);
+}
+.mainbg ul li a {
+  color: var(--first_color);
+  transition: 0.5s ease-in-out;
+}
+.mainbg ul li.active a,
+.mainbg ul li:hover a {
+  color: #fff;
+}
+.mainbg #addNewAds {
+  margin-top: 30px;
+  display: block;
+  text-align: center;
+}
+/* middel column */
+.main .row {
+  border-radius: 0;
+  padding: 0;
+  background-color: transparent;
+}
+.main .item {
+  background-color: #fff;
+  border-radius: 20px;
+  margin: 8px;
+  padding: 10px 10px 0;
+  border: none;
+}
+
+.main .item img {
+  width: 100%;
+  border-radius: 20px;
+}
+.main .item .d-flex {
+  text-align: center;
+  align-items: center;
+}
+.main .item .d-flex i,
+.main .item p {
+  font-size: 21px;
+  padding: 15px 0;
+}
+.main .item .d-flex a,
+.main .item p {
+  height: 100%;
+}
+.main .item .d-flex a {
+  width: 30%;
+}
+.main .item .d-flex a:first-child {
+  border-left: 1px solid var(--first_color);
+}
+.main .item .d-flex a:last-child {
+  border-right: 1px solid var(--first_color);
+}
+.main .item p {
+  width: 40%;
+  margin: 0;
+}
+.main .item .image {
+  position: relative;
+}
+.main .item .image h5 {
+  position: absolute;
+  bottom: 5px;
+  right: 8px;
+  color: #fff;
+  z-index: 99999;
+  font-weight: bold;
+}
+.main .item .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(180deg, transparent, black);
+  top: 0;
+  border-radius: 20px;
+  opacity: 0.5;
+}
+@media (max-width: 768px) {
+  .main .item {
+    padding: 0;
+  }
+  .main .item img,
+  .main .item .overlay {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+}
