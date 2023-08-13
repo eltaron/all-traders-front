@@ -1,0 +1,117 @@
+/* right column */
+.mainbg .images .mylogo {
+  margin-top: -49px;
+}
+.mainbg .description span {
+  margin: 0 10px;
+}
+.mainbg .rates i {
+  color: #ffc626;
+  font-size: 25px;
+}
+main .images .mylogo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid var(--first_color);
+}
+main .images .profile {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom: 2px solid var(--first_color);
+  max-height: 260px;
+}
+main .mainbg .mainp {
+  background-color: var(--third_bg_color);
+  width: 100%;
+  border: 1px solid var(--icons_color);
+  min-height: 100px;
+  padding: 20px 15px 0 0;
+  text-align: right;
+  font-weight: 600;
+}
+main .mainbg button {
+  border: none;
+  outline: none;
+  padding: 5px;
+  box-sizing: border-box;
+  background-color: transparent;
+}
+main .mainbg button a {
+  background-color: var(--third_bg_color);
+  color: var(--icons_color);
+  width: 100%;
+  display: block;
+  font-size: 22px;
+  padding: 6px;
+  border: 1px solid var(--icons_color);
+}
+main .mainbg button a.btn-danger {
+  background-color: #ff0007;
+  color: #fff;
+}
+/* middel coulmn */
+
+/* left column */
+.mainbg .logo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+.mainbg input {
+  border: 2px solid var(--first_color);
+  width: 100%;
+  padding: 15px 50px 15px 0;
+  border-radius: 20px;
+  outline: 0;
+}
+.mainbg input::placeholder {
+  color: var(--icons_color);
+  font-size: 20px;
+}
+.mainbg .main .d-flex {
+  font-size: 18px;
+  margin: 20px 0;
+}
+.mainbg .main .d-flex i {
+  margin-left: 10px;
+}
+.mainbg .links ul {
+  padding: 0;
+  list-style: none;
+}
+.mainbg .links ul li {
+  margin: 10px 0;
+}
+.mainbg form {
+  position: relative;
+}
+.mainbg form button {
+  position: absolute;
+  right: 24px;
+  top: 12px;
+}
+/* add new */
+#addNew {
+  background-color: var(--icons_color);
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  display: inline-block;
+  margin-top: 10px;
+}
+.addNew i {
+  border: 1px solid;
+  width: 35px;
+  height: 35px;
+  line-height: 33px;
+  border-radius: 50%;
+  background-color: black;
+  color: #fff;
+}
+/* اشتغلي هنا يامريم */
