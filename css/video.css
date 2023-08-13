@@ -216,3 +216,55 @@ main .mainbg button a.btn-danger {
     padding: 8px;
   }
 }
+/* video2 */
+.video video {
+  height: 97vh;
+  background-color: #cccccc;
+}
+.video {
+  width: 80%;
+  position: relative;
+}
+.video p,
+.video i {
+  position: absolute;
+
+  color: #fff;
+}
+.video p {
+  bottom: 40px;
+  padding: 10px;
+}
+.video i {
+  bottom: 40%;
+  right: 45%;
+  font-size: 4em;
+}
+.descrption {
+  width: 20%;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.descrption li {
+  margin: 25px;
+  font-size: 18px;
+}
+.descrption i {
+  display: block;
+  margin-bottom: 12px;
+  font-size: 20px;
+}
+.descrption ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.descrption img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-bottom: 12px;
+}
